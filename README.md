@@ -81,7 +81,11 @@ vi /etc/init/gdm.conf
 gedit /etc/init/gdm.conf
 nano /etc/init/gdm.conf
 ```
-
+Включить обычный вход можно командой:
+```bash
+cd /etc/init/
+sudo update-rc.d -f xdm remove
+```
 
 
 
